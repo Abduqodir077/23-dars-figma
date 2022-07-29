@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Metrophobic';
+    src: url(../fonts/Metrophobic-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    max-width: 375px;
+    width: 375px;
+    height: auto;
+    background: #FFFFFF;
+}
+
+a{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+nav{
+    padding: 0 25px;
+    margin-top: 35px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav button{
+    border: none;
+    background: none;
+}
+
+.icon{
+    width: 34px;
+    height: 32px;
+}
+
+.par{
+    width: 213px;
+    height: 25px;
+}
+
+.par p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.btn{
+    width: 40px;
+    height: 23px;
+}
+
+.section1{
+    margin-top: 26px;
+    width: 100%;
+    height: auto;
+    padding: 0 18px;
+}
+
+.sec1_top{
+    width: 143px;
+    height: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec1_top p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.sec1_search{
+    position: relative;
+    margin-top: 34px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec1_search input{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+border: 1px solid #BEBEBE;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding-left: 50px;
+font-weight: 800;
+font-style: 20px;
+}
+
+.sec1_search svg{
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.sec1_search p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+}
+
+.sec1_search input::placeholder{
+    padding-left: 47px;
+    font-family: 'Metrophobic';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #BEBEBE;
+}
+
+.sec1_img{
+    margin-top: 10px;
+    width: 290px;
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.sec1_img_1{
+    width: 90%;
+    height: 100%;
+    transform: translateX(0);
+}
+.sec1_img_1_top{
+    width: 290px;
+    height: 158px;
+}
+
+.sec1_img_2{
+    width: 90%;
+    height: 100%;
+    margin-left: 15px;
+    transform: translateX(0);
+}
+
+.sec1_img_3{
+    width: 90%;
+    height: 100%;
+    margin-left: 15px;
+    transform: translateX(0);
+}
+
+
+.sec1_img_1_bottom{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 11px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+
+.sec1_i_b_l{
+    width: 162px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.d1{
+    width: 162px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.sec1_i_b_l p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.sec1_i_b_r{
+    width: 69px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec1_i_b_r button{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+    border: none;
+    width: 69px;
+height: 23px;
+background: #E23744;
+border-radius: 5px;
+}
+
+.sec1_i_b_r #btn{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+    width: 69px;
+height: 23px;
+background: #C5BD00;
+border-radius: 5px;
+}
+
+/* ==================== */
+
+.section_3 {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+}
+
+/* @media (max-width: 375px) { */
+    .section_3 {
+        margin-top: 27px;
+        max-width: 375px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        background-image: url(./img/MainBG.png);
+        flex-direction: column;
+    }
+    .p_ss{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 18px;
+    }
+    .p_1 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+
+        color: #000000;
+    }
+
+    .left {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .p_s {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .ota_div {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 18px 27px 30px 25px;
+    }
+
+    .p_2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        width: 202px;
+    }
+
+    .btns {
+        padding-top: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 198px;
+    }
+
+    .add {
+        background: #E23744;
+        border-radius: 5px;
+        width: 84px;
+        height: 29px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+
+        border: none;
+        color: #FFFFFF;
+    }
+
+    .Sche {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+        border: none;
+        color: #FFFFFF;
+        background: #C5BD00;
+        border-radius: 5px;
+        width: 84px;
+        height: 29px;
+        margin-right: 25px;
+    }
+    .ota_div2{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 23px 27px 30px 25px;
+    }
+/* } */
