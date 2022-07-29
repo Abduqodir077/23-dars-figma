@@ -10,6 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
 }
 
 .wrapper{
@@ -51,7 +52,7 @@ body{
     left: 15px;
 }
 .search input{
-    width: 385px;
+    width: 360px;
     height: 40px;
     background: #FFFFFF;
     border: 1px solid #BEBEBE;
@@ -89,15 +90,16 @@ body{
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    justify-content: space-between;
 }
 
 .section_2 .column{
-    margin: 9px 12px;
+    margin: 9px;
 
 }
 .column img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 .column p{
     font-weight: 400;
@@ -119,6 +121,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 0 20px ;
 }    
 .section_3 .card{
     display: flex;
@@ -154,4 +157,32 @@ body{
     height: 21px;
     background: #0EAC00;
     border-radius: 3px;
+}
+.modal{
+    display: none;
+
+}
+
+
+.madal{
+    position: absolute;
+    margin: 130px auto;
+    width: 350px;
+    height: 350px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    overflow: scroll;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.results img{
+    margin-bottom: 5px;
 }
