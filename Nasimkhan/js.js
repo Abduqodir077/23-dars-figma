@@ -30,6 +30,8 @@ let section2 =document.querySelector(".section_2");
 let madal = document.querySelector(".madal");
 let modal = document.querySelector(".modal");
 let body = document.querySelector("body")
+let wrapper = document.querySelector(".wrapper");
+
 data.forEach((item) =>{
     section2.innerHTML += `
     <div class="column">
@@ -46,9 +48,11 @@ searchInput.addEventListener('input', e => {
     
     if(searchInput.value.length == 0){
         modal.style.display = "none"
+        wrapper.style.background = "white"
     } else if(searchInput.value.length > 0){
         modal.style.display = "block"
-        // body.style.background = 
+        wrapper.style.background = "#222"
+        
     }
 
     const element = e.target.value.toLowerCase()
@@ -76,3 +80,4 @@ const viewResults = (arr) => {
     `));
     madal.innerHTML = output;
 }
+

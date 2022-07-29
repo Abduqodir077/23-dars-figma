@@ -13,6 +13,10 @@ body{
 
 }
 
+.wrapper2{
+    background: url(./img/Main\ BackGround.png);
+}
+
 .wrapper{
     max-width: 425px;
     height: auto;
@@ -22,7 +26,7 @@ body{
     align-items: flex-start;
     justify-content: space-between;
     padding: 65px 25px;
-    background-image: url(./img/Main\ BackGround.png);
+    background: white;
 }
 
 .location{
@@ -159,23 +163,26 @@ body{
     border-radius: 3px;
 }
 .modal{
-    display: none;
+    /* display: none; */
+    display: flex;
 
 }
 
 
 .madal{
     position: absolute;
-    margin: 130px auto;
+    margin: 10px 20px;
     width: 350px;
-    height: 350px;
-    background-color: grey;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.863);
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px;
+    padding: 0px 10px;
     overflow: scroll;
 }
+
 .results{
     display: flex;
     flex-direction: column;
